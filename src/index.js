@@ -8,7 +8,13 @@ dotenv.config({
 })
 
 connectDB()
-
+.then(()=>{
+    
+})
+.catch((err)=>{
+  console.log(`MOGO_DB CONNECTION FAILED !!!` , err);
+  
+})
 
 
 
